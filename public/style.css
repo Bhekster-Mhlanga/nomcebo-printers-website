@@ -45,3 +45,26 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
 
 .nav{position:sticky;top:-8px;z-index:50}
 .nav .g{background:rgba(255,255,255,.82)}
+/* ---- mobile fixes ---- */
+.topbar{background:#8A0F1A;color:#fff;font-size:13px;font-weight:500}
+.topbar a,.topbar a:hover{color:#fff;text-decoration:none}
+.topbar a:hover{text-decoration:underline}
+.tb{display:flex;flex-wrap:wrap;gap:6px 28px;justify-content:space-between;align-items:center;min-height:42px;padding:6px 24px}
+.tb-contact{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center}
+.tb svg{width:15px;height:15px;fill:currentColor;vertical-align:-3px;margin-right:6px}
+.tb-line{height:3px;background:#C9A24B}
+.menu-btn{padding:0;width:48px;min-height:48px;justify-content:center;border:0;color:#8A0F1A}
+.navbtn{display:none}
+.grid{grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr))}
+.grid > form{min-width:0!important}
+@media(max-width:1000px){
+.nav .g > .navbtn-d{display:none}
+.nav .links .navbtn{display:inline-flex;width:100%;box-sizing:border-box}
+.tb-info,.tb-m{display:none}
+.tb{justify-content:center;padding:6px 10px;font-size:12.5px}
+.tb-contact{justify-content:center;gap:6px 14px}
+}
+@media(max-width:700px){
+.qband{flex-direction:column;align-items:stretch!important;padding:24px!important;gap:24px!important}
+.qband > *{flex:none!important;width:100%;min-width:0!important;box-sizing:border-box}
+}
