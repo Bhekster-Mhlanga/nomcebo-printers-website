@@ -1,7 +1,0 @@
-{
-  "name": "nomcebo-printers",
-  "compatibility_date": "2026-11-10",
-  "assets": {
-    "directory": "./public"
-  }
-}
