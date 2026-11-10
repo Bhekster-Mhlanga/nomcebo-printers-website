@@ -27,4 +27,4 @@ h1,h2,h3,p{margin:0}
 .belt:hover .tr{animation-play-state:paused}
 .belt img{height:64px;width:auto;max-width:160px;object-fit:contain;flex:none;margin-right:48px}
 @keyframes belt{to{transform:translateX(-50%)}}
-@media(prefers-reduced-motion:reduce){.belt .tr{animation:none;flex-wrap:wrap;width:auto;justify-content:center;row-gap:20px}.belt{-webkit-mask-image:none;mask-image:none}}
+@media(prefers-reduced-motion:reduce){.belt .tr{animation-duration:120s}}
