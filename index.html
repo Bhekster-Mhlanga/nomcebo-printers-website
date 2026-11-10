@@ -103,13 +103,13 @@
 <div id="quote" class="wrap" style="padding-top:96px;padding-bottom:96px">
 <div style="background:#8A0F1A;border-radius:28px;padding:48px;display:flex;flex-wrap:wrap;gap:40px;align-items:center;border-top:6px solid #C9A24B">
 <div style="flex:1;min-width:280px;color:#fff">
-<h2 style="font-size:38px;font-weight:800;line-height:1.15">Ready to print? Get your quote in 24 hours.</h2>
+<div style="display:inline-block;background:#fff;border-radius:14px;padding:10px 16px;margin-bottom:22px"><img src="assets/nomceb-logo.png" alt="Nomcebo Printers logo" style="display:block;height:52px;width:auto"></div><h2 style="font-size:38px;font-weight:800;line-height:1.15">Ready to print? Get your quote in 24 hours.</h2>
 <p style="margin-top:16px;font-size:16px;line-height:1.6;color:#F5DADD">Tell us what you need and attach your artwork if you have it.</p>
 </div>
 <form class="g" method="post" action="quote.php" style="flex:1;min-width:300px;padding:26px;display:flex;flex-direction:column;gap:14px;background:rgba(255,255,255,.88)"><p id="msg" role="status" style="display:none;font-weight:700"></p>
 <div><label for="qn" style="font-size:13px;font-weight:700">Name</label><input id="qn" name="name" class="in" type="text" required autocomplete="name"></div>
 <div><label for="qp" style="font-size:13px;font-weight:700">Phone or email</label><input id="qp" name="contact" class="in" type="text" required></div>
-<div><label for="qs" style="font-size:13px;font-weight:700">Service</label><input id="qs" name="service" class="in" type="text" required placeholder="e.g. Banners, business cards"></div>
+<div><label for="qs" style="font-size:13px;font-weight:700">Service</label><select id="qs" name="service" class="in" required><option value="" selected disabled>Select a service</option><optgroup label="Printing"><option>Business Stationery</option><option>Banner Printing</option><option>NCR Book Printing</option><option>Calendars and Diaries</option><option>T-Shirt Printing</option><option>Mug Printing</option><option>Baby Shower Invitations</option><option>Wedding Invitations</option><option>UV Flatbed Printing</option></optgroup><optgroup label="Signage and Installations"><option>Board Installation</option><option>Fence Board Installation</option><option>Lightbox Installation</option><option>Signboard Installations</option><option>Vehicle Branding</option></optgroup><optgroup label="Sewing and Finishing"><option>Embroidery</option><option>Industrial Sewing</option><option>Bench Making</option><option>Book Binding</option><option>Canvas</option></optgroup><optgroup label="Design"><option>Design Services</option></optgroup><option>Other (describe below)</option></select></div>
 <div><label for="qd" style="font-size:13px;font-weight:700">Details (size, quantity, deadline)</label><textarea id="qd" name="details" class="in" rows="3" style="padding:12px 14px;resize:vertical"></textarea></div>
 <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
 <button class="btn" type="submit" style="width:100%">Send Request</button>
