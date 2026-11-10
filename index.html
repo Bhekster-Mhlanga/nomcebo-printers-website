@@ -3,12 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nomcebo Printers - Home for All Your Printing Needs</title>
+<title>Nomcebo Printers | Printing, Signage and Design in Lydenburg</title>
 <meta name="description" content="Nomcebo Printers provides high quality custom printing, signage and installation services for individuals and businesses in Lydenburg, Mpumalanga and Limpopo.">
 <link rel="icon" href="assets/cropped-favicon-270x270.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 <div id="top" style="position:relative;overflow:hidden">
@@ -46,7 +47,7 @@
 </div>
 </div>
 <div style="flex:1;display:flex;flex-direction:column;gap:16px;min-width:0">
-<img src="assets/Flatbed-printer.jpg" alt="Flatbed printer" style="height:260px;border-radius:20px;display:block;object-fit:cover;width:100%">
+<div class="show" id="show" data-slides="Business-Stationary-img.jpg|Business Stationery,Banner-Printing-img.jpg|Banner Printing,Flatbed-printer.jpg|UV Flatbed Printing,ncr-Printing-img.jpg|NCR Book Printing,t-shirt-Printing-img.jpg|T-Shirt Printing,Vehicle-Branding-2-img.jpg|Vehicle Branding,Signboard-installations-img.jpg|Signboard Installations,Lightbox-installation-img.jpg|Lightbox Installations,canvas-img.jpg|Canvas,mug-printing-img-2.jpg|Mug Printing,Board-installation-img.jpg|Board Installation"><img src="assets/Flatbed-printer.jpg" alt="UV flatbed printing at Nomcebo Printers"></div>
 <div class="g" style="padding:18px 22px;display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;font-weight:700;font-size:14px">
 <span>Promotional Material</span><span>Signage / Large Format</span><span>NCR Printing</span><span>Installations</span>
 </div>
@@ -135,5 +136,6 @@
 if(p.has('sent')){m.textContent='Thank you! We will quote within 24 hours.';m.style.color='#1B5E20';m.style.display='block';}
 else if(p.has('error')){m.textContent='Sorry, something went wrong. Please call 013 110 3167.';m.style.color='#8A0F1A';m.style.display='block';}})();
 </script>
+<script src="site.js" defer></script>
 </body>
 </html>
